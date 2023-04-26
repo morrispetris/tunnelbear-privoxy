@@ -21,7 +21,7 @@ echo "$PASSWORD" >> "/etc/service/tunnelbear/credential"
 
 # Connect to riseup VPN
 #openvpn --cd /app/tunnelbear --config "/app/tunnelbear/TunnelBear United States.ovpn" --auth-user-pass "/app/tunnelbear/credential" --daemon
-openvpn --cd /etc/service/tunnelbear --config "/etc/service/tunnelbear/TunnelBear United States.ovpn" --auth-user-pass "/etc/service/tunnelbear/credential" --daemon
+openvpn --cd /etc/service/tunnelbear --config "/etc/service/tunnelbear/TunnelBear United States.ovpn" --auth-user-pass "/etc/service/tunnelbear/credential" #--daemon
 
 
 if [ -n "$DNS_SERVERS_OVERRIDE" ]; then
