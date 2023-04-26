@@ -15,8 +15,8 @@ fi
 #echo "$USERNAME" > "/app/tunnelbear/credential"
 #echo "$PASSWORD" >> "/app/tunnelbear/credential"
 
-#echo "$USERNAME" > "/etc/service/tunnelbear/credential"
-#echo "$PASSWORD" >> "/etc/service/tunnelbear/credential"
+echo "$USERNAME" > "/etc/service/tunnelbear/credential"
+echo "$PASSWORD" >> "/etc/service/tunnelbear/credential"
 
 
 # Connect to riseup VPN
