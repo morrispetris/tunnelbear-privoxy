@@ -1,3 +1,9 @@
+Build
+```
+sudo docker build -t morrispetris/tunnelbear .
+```
+
+Run
 ```
 sudo docker run \
   --device=/dev/net/tun --cap-add=NET_ADMIN \
