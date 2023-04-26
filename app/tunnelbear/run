@@ -12,7 +12,6 @@ if ( [ ! -c /dev/net/tun ] ); then
 fi
 
 # credential
-touch /app/openvpn/credential
 echo "$USERNAME" > "/app/openvpn/credential"
 echo "$PASSWORD" >> "/app/openvpn/credential"
 
