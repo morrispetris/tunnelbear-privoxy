@@ -1,1 +1,5 @@
+confdir /service/privoxy
+logdir /var/log/privoxy
+
 listen-address 0.0.0.0:8118
+debug   4096 # Startup banner and warnings
