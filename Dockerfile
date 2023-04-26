@@ -6,7 +6,7 @@ RUN apk --update add curl jq openvpn privoxy runit tini
 
 #COPY service /app
 
-#COPY service /etc/service
+COPY service /etc/service
 
 EXPOSE 8118
 
