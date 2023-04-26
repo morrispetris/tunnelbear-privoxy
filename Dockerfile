@@ -7,6 +7,6 @@ WORKDIR /app
 COPY app /app
 COPY openvpn /app
 
-EXPOSE 8080
+EXPOSE 8118
 
 CMD ["runsvdir", "/app"]
