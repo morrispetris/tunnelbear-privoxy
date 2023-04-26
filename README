@@ -1,5 +1,4 @@
 ```
-
 sudo docker run \
   --device=/dev/net/tun --cap-add=NET_ADMIN \
   -v /etc/localtime:/etc/localtime:ro \
@@ -9,5 +8,4 @@ sudo docker run \
   -e PASSWORD=password
   --name tunnelbear
   morrispetris/tunnelbear
-  
-```  
+```
