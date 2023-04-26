@@ -4,7 +4,7 @@ RUN apk --update add curl jq openvpn privoxy runit
 
 WORKDIR /app
 
-COPY app /app
+COPY service /app
 COPY openvpn /app
 
 EXPOSE 8118
