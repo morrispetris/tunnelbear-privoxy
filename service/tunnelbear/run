@@ -17,7 +17,7 @@ echo "$PASSWORD" >> "/app/tunnelbear/credential"
 
 
 # Connect to riseup VPN
-openvpn --cd /app/tunnelbear --config "/app/tunnelbear/TunnelBear United States.ovpn" --auth-user-pass "/app/tunnelbear/credential" --daemon
+openvpn --cd /app/tunnelbear --config "/app/tunnelbear/TunnelBear United States.ovpn" --auth-user-pass "/app/tunnelbear/credential" #--daemon
 
 
 if [ -n "$DNS_SERVERS_OVERRIDE" ]; then
